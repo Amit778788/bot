@@ -10,9 +10,10 @@ from telegram.ext import (
 import os
 import json
 
+
 # ENV VARS
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-ADMIN_CHAT_ID = os.getenv("ADMIN_CHAT_ID")
+BOT_TOKEN = os.getenv("7231687781:AAE8qTH7orpwdwnD0z_gMwCIqn47oe17bcA")
+ADMIN_CHAT_ID = os.getenv("6811664913")
 
 # Local Orders
 orders = {}
@@ -143,3 +144,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
